@@ -1,12 +1,12 @@
 #### Table of Contents
-1. [Daily coding problems](daily-coding-problems)
-2. [Easy](easy)
-    - [Problem #1 - ```TwoSum.java```](easy-1)
-    - [Problem #101 - ```Goldbach.java```](easy-101)
-3. [Medium](medium)
-    - [Problem #102 - ```ContiguousKSum.java```](medium-102)
-    - [Problem #122 - ```MatrixMaxPath.java```](medium-122)
-4. [Hard](hard)
+1. [Daily coding problems](#daily-coding-problems)
+2. [Easy](#easy)
+    - [Problem #1 - ```TwoSum.java```](#easy-1)
+    - [Problem #101 - ```Goldbach.java```](#easy-101)
+3. [Medium](#medium)
+    - [Problem #102 - ```ContiguousKSum.java```](#medium-102)
+    - [Problem #122 - ```MatrixMaxPath.java```](#medium-122)
+4. [Hard](#hard)
 
 # Daily Coding Problems
 My solutions to coding problems asked during technical interviews of different companies.
