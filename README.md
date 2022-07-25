@@ -7,6 +7,7 @@
     - [Problem #102 - ```ContiguousKSum.java```](#medium-102)
     - [Problem #122 - ```MatrixMaxPath.java```](#medium-122)
 4. [Hard](#hard)
+    - [Problem #2 - ```ProductExceptMe.java```](#hard-2)
 
 # Daily Coding Problems
 My solutions to coding problems asked during technical interviews of different companies.
@@ -55,3 +56,10 @@ Given a list of integers and a number K, return which contiguous elements of the
 For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
 
 ## Hard
+<a name="hard-2"></a>
+### Problem #2 - ```ProductExceptMe.java```
+Given an array of integers, return a new array such that each element at index ```i``` of the new array is the product of all the numbers in the original array except the one at ```i```.
+
+For example, if our input was ```[1, 2, 3, 4, 5]```, the expected output would be ```[120, 60, 40, 30, 24]```. If our input was ```[3, 2, 1]```, the expected output would be ```[2, 3, 6]```.
+
+Follow-up: what if you can't use division?
