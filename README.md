@@ -16,6 +16,13 @@ If there are more than one solution possible, return the lexicographically small
 
 If [a, b] is one solution with a <= b, and [c, d] is another solution with c <= d, then ```[a, b] < [c, d]``` if a < c OR a == c AND b < d.
 
+### Problem #1 - ```TwoSum.java```
+Given a list of numbers and a number ```k```, return whether any two numbers from the list add up to ```k```.
+
+For example, given ```[10, 15, 3, 7]``` and ```k``` of ```17```, return true since ```10 + 7``` is ```17```.
+
+Bonus: Can you do this in one pass?
+
 ## Medium
 ### Problem #122 - ```MatrixMaxPath.java```
 You are given a 2-d matrix where each cell represents number of coins in that cell. Assuming we start at matrix[0][0], and can only move right or down, find the maximum number of coins you can collect by the bottom right corner.
