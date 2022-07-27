@@ -4,6 +4,7 @@
     - [Problem #1 - ```TwoSum.java```](#easy-1)
     - [Problem #101 - ```Goldbach.java```](#easy-101)
 3. [Medium](#medium)
+    - [Problem #3 - ```BTreeSerialization.java```](#medium-3)
     - [Problem #102 - ```ContiguousKSum.java```](#medium-102)
     - [Problem #122 - ```MatrixMaxPath.java```](#medium-122)
 4. [Hard](#hard)
@@ -37,6 +38,24 @@ For example, given ```[10, 15, 3, 7]``` and ```k``` of ```17```, return true sin
 Bonus: Can you do this in one pass?
 
 ## Medium
+<a name="medium-3"></a>
+### Problem #3 - ```BTreeSerialization.java```
+Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
+
+For example, given the following Node class
+```
+class Node:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+```
+The following test should pass:
+```
+node = Node('root', Node('left', Node('left.left')), Node('right'))
+assert deserialize(serialize(node)).left.left.val == 'left.left'
+```
+
 <a name="medium-122"></a>
 ### Problem #122 - ```MatrixMaxPath.java```
 You are given a 2-d matrix where each cell represents number of coins in that cell. Assuming we start at matrix[0][0], and can only move right or down, find the maximum number of coins you can collect by the bottom right corner.
