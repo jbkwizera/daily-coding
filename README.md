@@ -9,6 +9,7 @@
     - [Problem #122 - ```MatrixMaxPath.java```](#medium-122)
 4. [Hard](#hard)
     - [Problem #2 - ```ProductExceptMe.java```](#hard-2)
+    - [Problem #4 - ```SmallestMissingPositive.java```](#hard-4)
 
 # Daily Coding Problems
 My solutions to coding problems asked during technical interviews of different companies.
@@ -82,3 +83,11 @@ Given an array of integers, return a new array such that each element at index `
 For example, if our input was ```[1, 2, 3, 4, 5]```, the expected output would be ```[120, 60, 40, 30, 24]```. If our input was ```[3, 2, 1]```, the expected output would be ```[2, 3, 6]```.
 
 Follow-up: what if you can't use division?
+
+<a name="hard-4"></a>
+### Problem #4 - ```SmallestMissingPositive.java```
+Given an array of integers, find the first missing positive integer in linear time and constant space. In other words, find the lowest positive integer that does not exist in the array. The array can contain duplicates and negative numbers as well.
+
+For example, the input ```[3, 4, -1, 1]``` should give ```2```. The input ```[1, 2, 0]``` should give ```3```.
+
+You can modify the input array in-place.
