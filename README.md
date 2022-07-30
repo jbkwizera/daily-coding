@@ -5,6 +5,7 @@
     - [Problem #101 - ```Goldbach.java```](#easy-101)
 3. [Medium](#medium)
     - [Problem #3 - ```BTreeSerialization.java```](#medium-3)
+    - [Problem #5 - ```carcdr.py```](#medium-5)
     - [Problem #102 - ```ContiguousKSum.java```](#medium-102)
     - [Problem #122 - ```MatrixMaxPath.java```](#medium-122)
 4. [Hard](#hard)
@@ -56,6 +57,24 @@ The following test should pass:
 node = Node('root', Node('left', Node('left.left')), Node('right'))
 assert deserialize(serialize(node)).left.left.val == 'left.left'
 ```
+<a name="medium-5"></a>
+### Problem #5 - ```carcdr.py```
+```cons(a, b)``` constructs a pair, and ```car(pair)``` and ```cdr(pair)``` return the first and last element of that pair. For example, ```car(cons(3, 4))``` returns ```3```, and ```cdr(cons(3, 4))``` returns ```4```.
+
+Given this implementation of ```cons```:
+```
+def cons(a, b):
+    def pair(f):
+        return f(a, b)
+    return pair
+```
+Implement ```car``` and ```cdr```.
+
+<a name="medium-102"></a>
+### Problem #102 - ```ContiguousKSum.java```
+Given a list of integers and a number K, return which contiguous elements of the list sum to K.
+
+For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
 
 <a name="medium-122"></a>
 ### Problem #122 - ```MatrixMaxPath.java```
@@ -68,12 +87,6 @@ For example, in this matrix
 1 5 3 1
 ```
 The most we can collect is 0 + 2 + 1 + 5 + 3 + 1 = 12 coins.
-
-<a name="medium-102"></a>
-### Problem #102 - ```ContiguousKSum.java```
-Given a list of integers and a number K, return which contiguous elements of the list sum to K.
-
-For example, if the list is [1, 2, 3, 4, 5] and K is 9, then it should return [2, 3, 4], since 2 + 3 + 4 = 9.
 
 ## Hard
 <a name="hard-2"></a>
